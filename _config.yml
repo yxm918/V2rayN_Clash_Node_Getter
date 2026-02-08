@@ -1,0 +1,12 @@
+# 在仓库根目录创建 _config.yml
+include:
+  - apis/index.html
+  - apis/css/
+  - apis/js/
+  - apis/images/
+
+# 指定自定义404页面（可选）
+permalink: pretty
+
+# 禁用不需要的插件
+plugins: []
